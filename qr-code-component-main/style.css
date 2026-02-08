@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    /* Browser ko batao ki humein poori height chahiye */
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    /* Viewport height - poori screen cover karega */
+    display: flex;
+    background-color: rgb(213 225 239);
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    min-width: 300px;
+    border-radius: 10px;
+    height: 60%;
+    padding: 10px;
+    align-items: center;
+    /* justify-content: center ; */
+    box-shadow: 5px 5px 25px #afafaf;
+    background-color: rgb(254 254 254);
+    padding: 16px;
+}
+
+.box {
+    width: 90%;
+    height: 60%;
+    /* min-width: 300px; */
+    /* height: 500px; */
+    /* background-color: red; */
+    background-image: url(./images/image-qr-code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    /* background-position: top 50% left 50%; */
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Improve {
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.767);
+    margin: 10px;
+}
+
+.Scan {
+    padding: 5px;
+    /* background-color: rgb(151, 1, 1); */
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 100;
+    /* line-height: 25px; */
+    font-size: 15px;
+}
